@@ -5,27 +5,42 @@
     <title> I just need a break </title>
     <style>
       html {
-        background-image: linear-gradient(white, lightsteelblue, slateblue, rebeccapurple, orchid, plum, peachpuff);
+        background-image: linear-gradient(to right, white, lightsteelblue, slateblue, rebeccapurple, orchid, plum, peachpuff);
       }
       .grid-container {
-      display: grid;
-      grid-columns-template: auto auto auto auto;
-      grid-rows-template: auto auto auto auto;
+        display: grid;
+        grid-columns-template: auto auto auto auto;
+        grid-rows-template: auto auto auto auto;
       }
       .item1 {
-      grid-column: 1/2;
-      grid-row: 1/2;
-      background-color: white;
-      font-family: "Arial Black", Arial, sans-serif;
-      font-size: 30px;
-      color: mediumspringgreen;
-      text-align: center;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        background-color: white;
+        font-family: "Arial Black", Arial, sans-serif;
+        font-size: 30px;
+        color: mediumspringgreen;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+      }
+      .item2 {
+        grid-column: 2/5;
+        grid-row: 1/2;
+        background-color: white;
+        font-family: "Arial Black", Arial, sans-serif;
+        font-size: 30px;
+        color: mediumspringgreen;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
       }
     </style>
   </head>
   <body>
     <div class="grid-container">
       <div class="item1"> Today, I just need a break.
+      </div>
+      <div class="item2"> I've been so tired recently.
       </div>
     </div>
   </body>
