@@ -7,12 +7,30 @@
       html {
         background-image: linear-gradient(to right, white, lightsteelblue, slateblue, rebeccapurple, orchid, plum, peachpuff);
       }
+      a:link {
+        color: mediumseagreen;
+        text-decoration: none;
+      }
+      a:visited {
+        color: darkorange;
+        text-decoration;
+      }
+      a:hover {
+        background-color: slateblue;
+        color: white;
+        text-decoration: underline;
+      }
+      a:active {
+        background-color: white;
+        color: slateblue;
+        text-decoration: underline;
+      }
       .grid-container {
         display: grid;
         grid-columns-template: auto auto auto auto;
         grid-rows-template: auto auto auto auto;
         background-color: black;
-        }
+      }
       .item1 {
         grid-column: 1/2;
         grid-row: 2/3;
@@ -23,7 +41,7 @@
         text-align: center;
         padding: 10px;
         margin: 10px;
-        }
+      }
       .item2 {
         grid-column: 2/4;
         grid-row: 2/3;
@@ -34,7 +52,7 @@
         text-align: center;
         padding: 10px;
         margin: 10px;
-        }
+      }
       .item3 {
         grid-column: 1/4;
         grid-row: 3/4;
@@ -44,7 +62,7 @@
         text-align: left;
         padding: 10px;
         margin: 10px;
-        }
+      }
     </style>
   </head>
   <body>
